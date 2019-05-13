@@ -9,4 +9,4 @@ $end = new DateTime('12-03-2013');
 $date = new TimeTravel($start, $end);
 var_dump($date->getTravelInfo());
 var_dump($date->findDate(-1000000000));
-var_dump($date->backToFutureStepByStep('P1M1W1D'));
+var_dump($date->backToFutureStepByStep(3369600));
