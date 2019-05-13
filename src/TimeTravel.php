@@ -42,7 +42,7 @@ class TimeTravel {
     	$daterange = new DatePeriod($start, $interval ,$end);
 
 		foreach($daterange as $date){
-    		$dateArray[] = $date->format("m d Y A h:i");
+    		$dateArray[] = $date->format("M d Y A h:i");
 		}
 
 		return $dateArray;
